@@ -1,0 +1,72 @@
+[2018-04-13 22:55:00 -0700] [7052] [INFO] Starting gunicorn 19.7.1
+[2018-04-13 22:55:00 -0700] [7052] [INFO] Listening at: http://0.0.0.0:5000 (7052)
+[2018-04-13 22:55:00 -0700] [7052] [INFO] Using worker: sync
+[2018-04-13 22:55:00 -0700] [7055] [INFO] Booting worker with pid: 7055
+[2018-04-13 22:55:00 -0700] [7055] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+ImportError: No module named 'helloapp'
+[2018-04-13 22:55:00 -0700] [7055] [INFO] Worker exiting (pid: 7055)
+[2018-04-13 22:55:00 -0700] [7052] [INFO] Shutting down: Master
+[2018-04-13 22:55:00 -0700] [7052] [INFO] Reason: Worker failed to boot.
+[2018-04-13 22:55:48 -0700] [7414] [INFO] Starting gunicorn 19.7.1
+[2018-04-13 22:55:48 -0700] [7414] [INFO] Listening at: http://0.0.0.0:5000 (7414)
+[2018-04-13 22:55:48 -0700] [7414] [INFO] Using worker: sync
+[2018-04-13 22:55:48 -0700] [7417] [INFO] Booting worker with pid: 7417
+[2018-04-13 22:55:48 -0700] [7417] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+ImportError: No module named 'helloapp'
+[2018-04-13 22:55:48 -0700] [7417] [INFO] Worker exiting (pid: 7417)
+[2018-04-13 22:55:49 -0700] [7414] [INFO] Shutting down: Master
+[2018-04-13 22:55:49 -0700] [7414] [INFO] Reason: Worker failed to boot.
+[2018-04-13 22:57:31 -0700] [8176] [INFO] Starting gunicorn 19.7.1
+[2018-04-13 22:57:31 -0700] [8176] [INFO] Listening at: http://0.0.0.0:5000 (8176)
+[2018-04-13 22:57:31 -0700] [8176] [INFO] Using worker: sync
+[2018-04-13 22:57:31 -0700] [8182] [INFO] Booting worker with pid: 8182
+[2018-04-13 22:57:31 -0700] [8182] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kevin/_Files/_Kevin/ICS/Projects/2018_2_Spring/angular4django/env/lib/python3.5/site-packages/gunicorn/util.py", line 352, in import_app
+    __import__(module)
+ImportError: No module named 'helloapp'
+[2018-04-13 22:57:31 -0700] [8182] [INFO] Worker exiting (pid: 8182)
+[2018-04-13 22:57:31 -0700] [8176] [INFO] Shutting down: Master
+[2018-04-13 22:57:31 -0700] [8176] [INFO] Reason: Worker failed to boot.
