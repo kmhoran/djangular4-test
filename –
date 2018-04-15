@@ -98,3 +98,10 @@ ImportError: No module named 'helloapp'
 [2018-04-15 11:49:47 -0700] [4369] [INFO] Handling signal: int
 [2018-04-15 18:49:47 +0000] [4375] [INFO] Worker exiting (pid: 4375)
 [2018-04-15 11:49:47 -0700] [4369] [INFO] Shutting down: Master
+[2018-04-15 12:04:47 -0700] [7876] [INFO] Starting gunicorn 19.7.1
+[2018-04-15 12:04:47 -0700] [7876] [INFO] Listening at: http://0.0.0.0:5000 (7876)
+[2018-04-15 12:04:47 -0700] [7876] [INFO] Using worker: sync
+[2018-04-15 12:04:47 -0700] [7879] [INFO] Booting worker with pid: 7879
+[2018-04-15 12:05:46 -0700] [7876] [INFO] Handling signal: int
+[2018-04-15 19:05:46 +0000] [7879] [INFO] Worker exiting (pid: 7879)
+[2018-04-15 12:05:46 -0700] [7876] [INFO] Shutting down: Master

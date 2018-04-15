@@ -29,7 +29,7 @@ DEBUG = True
 # ALLOWED_HOSTS = [ 'example.com', '203.0.113.5']
 # To respond to 'example.com' and any subdomains, start the domain with a dot
 # ALLOWED_HOSTS = ['.example.com', '203.0.113.5']
-ALLOWED_HOSTS = ['0.0.0.0', 'https://djangular4-test.herokuapp.com/']
+ALLOWED_HOSTS = ['0.0.0.0', 'djangular4-test.herokuapp.com/']
 
 
 # Application definition
