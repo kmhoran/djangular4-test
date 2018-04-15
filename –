@@ -70,3 +70,31 @@ ImportError: No module named 'helloapp'
 [2018-04-13 22:57:31 -0700] [8182] [INFO] Worker exiting (pid: 8182)
 [2018-04-13 22:57:31 -0700] [8176] [INFO] Shutting down: Master
 [2018-04-13 22:57:31 -0700] [8176] [INFO] Reason: Worker failed to boot.
+[2018-04-13 23:02:01 -0700] [10016] [INFO] Starting gunicorn 19.7.1
+[2018-04-13 23:02:01 -0700] [10016] [INFO] Listening at: http://0.0.0.0:5000 (10016)
+[2018-04-13 23:02:01 -0700] [10016] [INFO] Using worker: sync
+[2018-04-13 23:02:01 -0700] [10022] [INFO] Booting worker with pid: 10022
+[2018-04-13 23:03:34 -0700] [10016] [INFO] Handling signal: int
+[2018-04-14 06:03:34 +0000] [10022] [INFO] Worker exiting (pid: 10022)
+[2018-04-13 23:03:34 -0700] [10016] [INFO] Shutting down: Master
+[2018-04-13 23:16:47 -0700] [16271] [INFO] Starting gunicorn 19.7.1
+[2018-04-13 23:16:47 -0700] [16271] [INFO] Listening at: http://0.0.0.0:5000 (16271)
+[2018-04-13 23:16:47 -0700] [16271] [INFO] Using worker: sync
+[2018-04-13 23:16:47 -0700] [16277] [INFO] Booting worker with pid: 16277
+[2018-04-13 23:18:25 -0700] [16271] [INFO] Handling signal: int
+[2018-04-14 06:18:25 +0000] [16277] [INFO] Worker exiting (pid: 16277)
+[2018-04-13 23:18:25 -0700] [16271] [INFO] Shutting down: Master
+[2018-04-13 23:20:21 -0700] [17607] [INFO] Starting gunicorn 19.7.1
+[2018-04-13 23:20:21 -0700] [17607] [INFO] Listening at: http://0.0.0.0:5000 (17607)
+[2018-04-13 23:20:21 -0700] [17607] [INFO] Using worker: sync
+[2018-04-13 23:20:21 -0700] [17610] [INFO] Booting worker with pid: 17610
+[2018-04-13 23:20:59 -0700] [17607] [INFO] Handling signal: int
+[2018-04-14 06:20:59 +0000] [17610] [INFO] Worker exiting (pid: 17610)
+[2018-04-13 23:20:59 -0700] [17607] [INFO] Shutting down: Master
+[2018-04-15 11:46:33 -0700] [4369] [INFO] Starting gunicorn 19.7.1
+[2018-04-15 11:46:33 -0700] [4369] [INFO] Listening at: http://0.0.0.0:5000 (4369)
+[2018-04-15 11:46:33 -0700] [4369] [INFO] Using worker: sync
+[2018-04-15 11:46:33 -0700] [4375] [INFO] Booting worker with pid: 4375
+[2018-04-15 11:49:47 -0700] [4369] [INFO] Handling signal: int
+[2018-04-15 18:49:47 +0000] [4375] [INFO] Worker exiting (pid: 4375)
+[2018-04-15 11:49:47 -0700] [4369] [INFO] Shutting down: Master

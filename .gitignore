@@ -1,6 +1,6 @@
 venv
 *.pyc
-staticfiles
+static/
 .env
 .vscode/
 __pycache__/
