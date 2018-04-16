@@ -29,7 +29,7 @@ DEBUG = True
 # ALLOWED_HOSTS = [ 'example.com', '203.0.113.5']
 # To respond to 'example.com' and any subdomains, start the domain with a dot
 # ALLOWED_HOSTS = ['.example.com', '203.0.113.5']
-ALLOWED_HOSTS = ['0.0.0.0','djangular4-test.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1','djangular4-test.herokuapp.com']
 
 
 # Application definition
@@ -133,7 +133,7 @@ DATABASES['default'].update(db_from_env)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
  
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'site/assets')
 STATIC_URL = '/static/'
  
 # Extra places for collectstatic to find static files.
