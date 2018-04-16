@@ -1,6 +1,5 @@
 from django.conf.urls import url
 from app import views
-from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^$', views.HomePageView.as_view()),
