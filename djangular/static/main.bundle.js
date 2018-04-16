@@ -148,10 +148,10 @@ var AppModule = /** @class */ (function () {
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* RouterModule */].forRoot([
-                    { path: 'about', component: __WEBPACK_IMPORTED_MODULE_5__about_about_component__["a" /* AboutComponent */] },
-                    { path: 'home', component: __WEBPACK_IMPORTED_MODULE_4__home_home_page_component__["a" /* HomePageComponent */] },
-                    { path: '', redirectTo: 'home', pathMatch: 'full' },
-                    { path: '**', redirectTo: 'home', pathMatch: 'full' }
+                    { path: 'app/about', component: __WEBPACK_IMPORTED_MODULE_5__about_about_component__["a" /* AboutComponent */] },
+                    { path: 'app/home', component: __WEBPACK_IMPORTED_MODULE_4__home_home_page_component__["a" /* HomePageComponent */] },
+                    { path: '', redirectTo: 'app/home', pathMatch: 'full' },
+                    { path: '**', redirectTo: 'app/home', pathMatch: 'full' }
                 ])
             ],
             providers: [],
